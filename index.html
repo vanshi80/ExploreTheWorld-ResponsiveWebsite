@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the Beauty</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div class="logo">ADVENTURE</div>
+        <div class="ops">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Projects</a>
+            <a href="#"><button class="btn">Contact Us</button></a>
+        </div>
+        <div class="menu-btn">
+            <img src="assets/menu-btn.png" alt="">
+        </div>
+    </nav>
+    <header>
+        <div class="header-content">
+            <h5>Explore the Colorful World</h5>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <button class="btn">Learn More</button>
+        </div>
+    </header>
+    <section class="events">
+        <div class="title">
+            <h1>UPCOMING EVENTS</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="assets/img1.png" alt="">
+                <div class="text">
+                    <h2>Everest Camp Trek</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et neque quo, quod quasi architecto
+                        praesentium minima! Eveniet dicta architecto, quaerat ex, sint, mol</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+            <div class="col">
+                <img src="assets/img2.png" alt="">
+                <div class="text">
+                    <h2>Walking Holidays</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et neque quo, quod quasi architecto
+                        praesentium minima! Eveniet dicta architecto, quaerat ex, sint, mol</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum ut mollitia, esse nemo, debitis impedit
+                nisiamet deserunt officia, consectetur quo? Sed ut ipsam aliquid sint aperiam qui adipisci possimus.</p>
+            <button class="btn">Learn More</button>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minus eos deleniti veniam ex mollitia
+                    incidunt, itaque ipsum ipsa corporis fugiat! Dolorem, molestiae error debitis soluta quis quod
+                    officia deleniti?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quo quia
+                    laudantium numquam fugiat deleniti facere veniam autem? Iure nobis aliquid esse est.</P>
+                <button class="btn">Learn More</button>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="assets/img3.png" alt="">
+                    <img src="assets/img4.png" alt="">
+                    <img src="assets/img5.png" alt="">
+                    <img src="assets/img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>123 Fifth Avenue, NY 101610, New York, USA | Phone: 800-123-456 | Email: contact@example.com</p>
+        <p>Copyright 2020 Outdoor Adventure</p>
+    </section>
+    <script>
+        const menubtn = document.querySelector(".menu-btn");
+        const ops = document.querySelector(".ops");
+        menubtn.addEventListener("click", () => {
+            ops.classList.toggle('mobile-menu');
+        })
+    </script>
+</body>
+
+</html>
